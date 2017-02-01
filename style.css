@@ -78,7 +78,7 @@ header {
 
 header div img {
 	float: right;
-	padding: 40px 0;
+	padding: 40px 20px;
 }
 
 /*
@@ -159,11 +159,7 @@ header div img {
 	top: 1px;
 }
 
-/*
-#button {
-	font-weight: 10;
-}
-*/
+
 
 /*
 	nav
@@ -216,6 +212,21 @@ header nav ul li a:active {
 	margin-right: 20px;
 }
 
+article p {
+	margin-bottom: 0;
+}
+
+.read-more {
+	text-decoration: none;
+	float: right;
+	margin-right: 30px;
+	color: #000;
+}
+
+.read-more:hover {
+	color: #00c0ff;
+}
+
 
 /*
 	footer
@@ -223,15 +234,32 @@ header nav ul li a:active {
 
 footer {
 	background: #444;	
+	padding: 15px 0 0 0;
 }
 
 #copyright {
 	color: white;
-	margin-top: 15px;
 	font-size: 10px;
+	float: left;
 }
 
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
 
+footer a:hover {
+	color: #00c0ff;
+}
+
+footer nav a {
+	margin: 10px 0 0 15px;
+	font-size: 13px;
+}
+
+footer nav {
+	margin-right: 15px;
+}
 /*
 	global style
 */
