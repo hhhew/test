@@ -35,7 +35,7 @@ p {
 	layout
 */
 
-.contener {
+.container {
 	width: 940px;
 	padding: 0 10px;
 	margin: 0 auto;
@@ -57,6 +57,10 @@ header {
 #cta {
 	background: #3fbced;
 	color: black;
+}
+
+#content {
+	padding: 30px 0;
 }
 
 /*
@@ -195,6 +199,38 @@ header nav ul li a:active {
 	   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) inset;
 	        box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) inset;
 }
+
+
+
+/*
+	column
+*/
+
+.column {
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+}
+
+.column-margin {
+	margin-right: 20px;
+}
+
+
+/*
+	footer
+*/
+
+footer {
+	background: #444;	
+}
+
+#copyright {
+	color: white;
+	margin-top: 15px;
+	font-size: 10px;
+}
+
 
 /*
 	global style
