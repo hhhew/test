@@ -9,6 +9,15 @@ body {
 	color: #444;
 }
 
+@font-face {
+	font-family: HelveticaNeue; /* Гарнитура шрифта */
+	src: url(fonts/HelveticaNeue-Light.ttf); 
+}
+
+body {
+	font-family: HelveticaNeue;
+}
+
 
 /*
 	typography
@@ -78,7 +87,8 @@ header {
 
 header div img {
 	float: right;
-	padding: 40px 20px;
+/*	padding: 40px 20px;*/
+	
 }
 
 /*
